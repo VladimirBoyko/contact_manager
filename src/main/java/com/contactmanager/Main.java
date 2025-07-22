@@ -9,8 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\n1. Add new contact;\n2. Search contact;\n3. List of contacts;\n4. Exit");
-            System.out.print("Kindly select an option by number: ");
+            System.out.println("Contact Manager welcomes you!\n" +
+                               "\n1. Add new contact;\n2. Search contact;\n3. List of contacts;\n4. Exit");
+            System.out.print("Kindly select an option using digit input: ");
             String customerInput = scanner.nextLine();
 
             switch (customerInput) {
