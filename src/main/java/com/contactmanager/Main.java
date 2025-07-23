@@ -9,11 +9,11 @@ public class Main {
     public static void main(String[] args) {
         while (true) {
             System.out.println("""
-                   Hello and Welcome to smart Contact Manager!
-                    1. Add new contact;
-                    2. Search contact;
-                    3. List of contacts;
-                    4. Exit""");
+                    Hello and Welcome to smart Contact Manager!
+                     1. Add new contact;
+                     2. Search contact;
+                     3. List of contacts;
+                     4. Exit""");
             System.out.print("Please select an option by number: ");
             String customerInput = scanner.nextLine();
 
@@ -57,7 +57,7 @@ public class Main {
         if (contactManager.isEmpty()) {
             System.out.println("You still do not have any contacts.\n");
         } else {
-            for (Contact contact : contactManager.displayAllContacts()){
+            for (Contact contact : contactManager.displayAllContacts()) {
                 System.out.print(contact.toLine());
             }
         }
