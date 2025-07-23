@@ -12,10 +12,7 @@ public class Contact {
     public String getName(){
         return name;
     }
-//    public String getPhone(){
-//        return phone;
-//    }
-//
+
     public String toLine (){
         return  "* Name: " + name + "\n" + "Phone: " + phone + "\n";
     }
