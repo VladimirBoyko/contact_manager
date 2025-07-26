@@ -7,8 +7,9 @@ Function:
 3. List of contacts - display all contacts from the list; 
 4. Exit - exit from application.
 
-** Contact Manager – Build and Run Instructions**
 _______________________________________________________________________________________
+
+** Contact Manager – Build and Run Instructions**
 This is a simple Java-based Contact Manager application.
 
 ** Requirements: 
